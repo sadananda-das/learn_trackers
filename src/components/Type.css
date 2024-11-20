@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+.containers {
+    position: relative;
+    height: 45.25vmax;
+    width: 100%;
+    background: linear-gradient(to right, #000000, #B6EADA);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    height: 50%;
+    width: 60%;
+    background: linear-gradient(to left, #5C8374, #70988c);
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    box-shadow: 0 10px 30px #ffffff;
+}
+
+.heading {
+    height: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.heading1 {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading .heading1 h1 {
+    position: relative;
+    font-size: 300%;
+    font-weight: bolder;
+    padding-bottom: 4px;
+    color: #ffffff;
+}
+
+.heading2 {
+    height: 30%;
+    width: 100%;
+}
+
+.heading .heading2 h3 {
+    position: relative;
+    font-size: 100%;
+    font-weight: normal;
+    padding-bottom: 20%;
+    color: #ffffff;
+}
+
+.buttons {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.teachers {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.type {
+    position: relative;
+    height: 29%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: linear-gradient(to right, #4c6c60, #9EC8B9);
+    transition: 0.3s ease all;
+    z-index: 1;
+
+}
+
+.type:hover {
+    box-shadow: 0 0 20px #fff;
+}
+
+.students {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons2 {
+    position: relative;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
+    color: #ffffff;
+}

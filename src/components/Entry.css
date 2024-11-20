@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #000000, #5C8374);
+
+
+}
+
+.coponents {
+    height: 41.45vmax;
+    width: 100%;
+    display: flex;
+    padding-top: 15%;
+    padding-left: 10%;
+    justify-content: space-between;
+    background: url(./background.png);
+    background-attachment: scroll;
+    overflow: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.contents {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 0px;
+}
+
+.heading-main {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading-main h1 {
+    position: relative;
+    font-size: 200%;
+    font-weight: bold;
+    color: #ff5e00;
+    text-shadow: -4px 0px 10px rgb(100, 99, 99);
+    text-transform: uppercase;
+
+
+}
+
+.heading-main p {
+    font-size: 90%;
+    line-height: 1px;
+    color: rgb(187, 187, 187);
+}
+
+
+.btn {
+
+    width: 9%;
+    height: 20%;
+    padding-left: 0;
+    background-color: aquamarine;
+    align-items: center;
+    padding-top: 1px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn a {
+    display: inline;
+    font-size: 170%;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn:hover {
+    background-color: rgb(47, 86, 73);
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .heading {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    h1 {
+        visibility: visible;
+    }
+
+    p {
+        visibility: visible;
+    }
+}
